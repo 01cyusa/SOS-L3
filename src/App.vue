@@ -1,6 +1,6 @@
 <script setup>
 import Home from './Components/Home.vue';
-import Navbar from './Components/Navbar.vue';
+import Navbar from './Components/Navbar.vue'
 
 </script>
 <template>
