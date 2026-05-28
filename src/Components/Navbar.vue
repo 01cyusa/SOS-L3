@@ -50,19 +50,19 @@
            bg-white py-2 w-40 rounded shadow-lg"
   >
     <li>
-      <a href="#" class="block px-4 py-2 text-black hover:bg-green-700 hover:text-white no-underline">Western province</a>
+      <router-link to="/province/western" class="block px-4 py-2 text-black hover:bg-green-700 hover:text-white no-underline">Western province</router-link>
     </li>
     <li>
-      <a href="#" class="block px-4 py-2 text-black hover:bg-green-700 hover:text-white no-underline">Eastern province</a>
+      <router-link to="/province/eastern" class="block px-4 py-2 text-black hover:bg-green-700 hover:text-white no-underline">Eastern province</router-link>
     </li>
     <li>
-      <a href="#" class="block px-4 py-2 text-black hover:bg-green-700 hover:text-white no-underline">Northern province</a>
+      <router-link to="/province/northern" class="block px-4 py-2 text-black hover:bg-green-700 hover:text-white no-underline">Northern province</router-link>
     </li>
     <li>
-      <a href="#" class="block px-4 py-2 text-black hover:bg-green-700 hover:text-white no-underline">Southern province</a>
+      <router-link to="/province/southern" class="block px-4 py-2 text-black hover:bg-green-700 hover:text-white no-underline">Southern province</router-link>
     </li>
     <li>
-      <a href="#" class="block px-4 py-2 text-black hover:bg-green-700 hover:text-white no-underline">Kigali City</a>
+      <router-link to="/province/kigali" class="block px-4 py-2 text-black hover:bg-green-700 hover:text-white no-underline">Kigali City</router-link>
     </li>
   </ul>
 </li>

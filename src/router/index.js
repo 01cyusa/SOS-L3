@@ -5,6 +5,7 @@ import Contact from '../Components/Contact.vue'
 import Service from '../Components/Service.vue'
 import Gallery from '../Components/Gallery.vue'
 import Destination from '../Components/Destination.vue'
+import Province from '../Components/Province.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,6 +15,7 @@ const router = createRouter({
     { path: '/service', name: 'Service', component: Service },
     { path: '/gallery', name: 'Gallery', component: Gallery },
     { path: '/destination', name: 'Destination', component: Destination },
+    { path: '/province/:province', name: 'Province', component: Province },
     { path: '/contact', name: 'Contact', component: Contact },
   ],
 })
