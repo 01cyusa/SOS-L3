@@ -1,12 +1,9 @@
 <template>
-  <section class="relative min-h-screen overflow-hidden">
-    <img
-      :src="backgroundImage"
-      alt="Rwanda landscape"
-      class="absolute inset-0 w-full h-full object-cover"
-    />
-
-    <div class="relative z-10 bg-black/10 text-white px-6 py-16 md:px-12 backdrop-blur-sm min-h-screen flex items-center">
+  <section
+    class="relative min-h-screen overflow-hidden bg-cover bg-center bg-no-repeat"
+    :style="{ backgroundImage: `url(${backgroundImage})` }"
+  >
+    <div class="relative z-10 bg-black/20 text-white px-6 py-16 md:px-12 backdrop-blur-sm min-h-screen flex items-center">
       <div class="max-w-4xl mx-auto space-y-8">
         <div>
           <p class="text-sm uppercase tracking-[0.3em] text-green-200">About Rwanda</p>

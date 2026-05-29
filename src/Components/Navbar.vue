@@ -22,10 +22,10 @@
       <router-link to="/gallery" class="block px-4 py-2 text-black hover:bg-green-700 hover:text-white no-underline">Gallery Home</router-link>
     </li>
     <li>
-      <button type="button" class="block w-full text-left px-4 py-2 text-black hover:bg-green-700 hover:text-white no-underline">Videos</button>
+      <router-link to="/videos" class="block px-4 py-2 text-black hover:bg-green-700 hover:text-white no-underline">Videos</router-link>
     </li>
     <li>
-      <button type="button" class="block w-full text-left px-4 py-2 text-black hover:bg-green-700 hover:text-white no-underline">Images</button>
+      <router-link to="/gallery/images" class="block px-4 py-2 text-black hover:bg-green-700 hover:text-white no-underline">Images</router-link>
     </li>
   </ul>
 </li>
