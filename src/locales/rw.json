@@ -1,0 +1,23 @@
+{
+  "nav": {
+    "home": "Ahabanza",
+    "about": "Ibyerekeye",
+    "service": "Serivisi",
+    "gallery": "Gallery",
+    "galleryHome": "Ahabanza ya Gallery",
+    "videos": "Videwo",
+    "images": "Amafoto",
+    "destination": "Aho gusura",
+    "destinationHome": "Ahabanza y'aho gusura",
+    "western": "Intara y'Iburengerazuba",
+    "eastern": "Intara y'Iburasirazuba",
+    "northern": "Intara y'Amajyaruguru",
+    "southern": "Intara y'Amajyepfo",
+    "kigali": "Umujyi wa Kigali",
+    "contact": "Twandikire",
+    "language": "Ururimi",
+    "english": "Icyongereza",
+    "french": "Igifaransa",
+    "kinyarwanda": "Ikinyarwanda"
+  }
+}

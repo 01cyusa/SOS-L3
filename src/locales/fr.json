@@ -1,0 +1,23 @@
+{
+  "nav": {
+    "home": "ACCUEIL",
+    "about": "À PROPOS",
+    "service": "SERVICE",
+    "gallery": "GALERIE",
+    "galleryHome": "Accueil Galerie",
+    "videos": "Vidéos",
+    "images": "Images",
+    "destination": "DESTINATION",
+    "destinationHome": "Accueil Destination",
+    "western": "Province de l'Ouest",
+    "eastern": "Province de l'Est",
+    "northern": "Province du Nord",
+    "southern": "Province du Sud",
+    "kigali": "Ville de Kigali",
+    "contact": "CONTACT",
+    "language": "Langue",
+    "english": "Anglais",
+    "french": "Français",
+    "kinyarwanda": "Ikinyarwanda"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "nav": {
+    "home": "HOME",
+    "about": "ABOUT US",
+    "service": "SERVICE",
+    "gallery": "GALLERY",
+    "galleryHome": "Gallery Home",
+    "videos": "Videos",
+    "images": "Images",
+    "destination": "DESTINATION",
+    "destinationHome": "Destination Home",
+    "western": "Western province",
+    "eastern": "Eastern province",
+    "northern": "Northern province",
+    "southern": "Southern province",
+    "kigali": "Kigali City",
+    "contact": "CONTACT",
+    "language": "Language",
+    "english": "English",
+    "french": "Français",
+    "kinyarwanda": "Kinyarwanda"
+  }
+}
