@@ -31,10 +31,10 @@ import { RouterLink } from 'vue-router';
   <h3 class="text-lg font-bold text-yellow-300 mb-3">Contact</h3>
 
   <ul class="space-y-2 text-sm">
-    <li><a href="#" class="hover:text-yellow-300">Phone 0788608309</a></li>
-    <li><a href="#" class="hover:text-yellow-300">Email info@tembera.rw</a></li>
-    <li><a href="#" class="hover:text-yellow-300">Location Kigali, Rwanda</a></li>
-    <li><a href="#" class="hover:text-yellow-300">Website www.tembera.rw</a></li>
+    <li><a href="#" class="hover:text-yellow-300">Phone +250 780 229 205</a></li>
+    <li><a href="#" class="hover:text-yellow-300">Email :cyusaivan0@gmail.com</a></li>
+    <li><a href="#" class="hover:text-yellow-300">Location Kigali,Kagugu, Rwanda</a></li>
+    <li><a href="#" class="hover:text-yellow-300">Website www.temberaurwanda.rw</a></li>
     <li><a href="#" class="hover:text-yellow-300">Support</a></li>
   </ul>
 </div>

@@ -16,11 +16,12 @@
 </template>
 
 <script>
-import North from '../assets/Image/North.jpg'
-import South from '../assets/Image/South.jpg'
-import East from '../assets/Image/East.jpg'
-import West from '../assets/Image/West.jpg'
-import Kigali from '../assets/Image/Kigali.jpg'
+import North from '../assets/Image/North.jpg?url'
+import South from '../assets/Image/South.jpg?url'
+import East from '../assets/Image/East.jpg?url'
+import West from '../assets/Image/West.jpg?url'
+import Kigali from '../assets/Image/Kigali.jpg?url'
+import Rwanda from '../assets/Image/RWANDA.jpg?url'
 
 export default {
   name: 'GalleryImages',
@@ -31,7 +32,8 @@ export default {
         { src: South, label: 'South', province: 'Southern' },
         { src: East, label: 'East', province: 'Eastern' },
         { src: West, label: 'West', province: 'Western' },
-        { src: Kigali, label: 'Kigali', province: 'Kigali City' }
+        { src: Kigali, label: 'Kigali', province: 'Kigali City' },
+        { src: Rwanda, label: 'Rwanda', province: 'National' }
       ]
     }
   }
