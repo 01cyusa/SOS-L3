@@ -11,21 +11,21 @@ import { RouterLink } from 'vue-router';
 <div>
  <h3 class="text-lg font-bold text-yellow-300 mt-3 mb-3">Quick Links</h3>
  <ul class="text-sm text-green-200 space-y-2">
-<li><router-link to='/home' class="hover:text-yellow-300">Home</router-link></li>
+<li><router-link to='/' class="hover:text-yellow-300">Home</router-link></li>
 <li><router-link to='/about' class="hover:text-yellow-300">About</router-link></li>
 <li><router-link to='/gallery' class="hover:text-yellow-300">Gallery</router-link></li>
 <li><router-link to='/destination' class="hover:text-yellow-300">Destination</router-link></li>
-<li><router-link to='/services' class="hover:text-yellow-300">Services</router-link></li>
+<li><router-link to='/service' class="hover:text-yellow-300">Services</router-link></li>
 </ul>
 </div>
  <div>
 <h3 class="text-lg font-bold text-yellow-300 mb-3">Destinations</h3>
 <ul class="space-y-2 text-sm">
-<li><router-link to="/province/northern" class="hover:bg-yellow-300">Northern</router-link></li>
-<li><router-link to="/province/southern" class="hover:bg-yellow-300">Southern</router-link></li>
-<li><router-link to="/province/eastern" class="hover:bg-yellow-300">Eastern</router-link></li>
-<li><router-link to="/province/western" class="hover:bg-yellow-300">Western</router-link></li>
- <li><router-link to="/province/kigali" class="hover:bg-yellow-300">Kigali</router-link></li></ul>
+<li><router-link to="/province/northern" class="hover:text-yellow-300">Northern</router-link></li>
+<li><router-link to="/province/southern" class="hover:text-yellow-300">Southern</router-link></li>
+<li><router-link to="/province/eastern" class="hover:text-yellow-300">Eastern</router-link></li>
+<li><router-link to="/province/western" class="hover:text-yellow-300">Western</router-link></li>
+ <li><router-link to="/province/kigali" class="hover:text-yellow-300">Kigali</router-link></li></ul>
 </div>
 <div>
   <h3 class="text-lg font-bold text-yellow-300 mb-3">Contact</h3>

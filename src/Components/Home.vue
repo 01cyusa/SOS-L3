@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import yvanImage from '../assets/Image/RWANDA.jpg'
+import yvanImage from '../assets/Image/RWANDA.JPG'
 
 export default {
   name: 'Home',
