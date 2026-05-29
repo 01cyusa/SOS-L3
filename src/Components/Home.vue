@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import yvanImage from '../assets/Image/RWANDA.JPG'
+import yvanImage from '../assets/Image/RWANDA.jpg'
 
 export default {
   name: 'Home',

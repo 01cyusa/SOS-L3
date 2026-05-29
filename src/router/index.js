@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../Components/Home.vue'
 import About from '../Components/About.vue'
 import Contact from '../Components/Contact.vue'
@@ -10,7 +10,7 @@ import Videos from '../Components/Videos.vue'
 import GalleryImages from '../Components/GalleryImages.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes: [
     { path: '/', name: 'Home', component: Home, alias: '/home' },
     { path: '/about', name: 'About', component: About },
