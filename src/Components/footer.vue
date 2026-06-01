@@ -34,7 +34,7 @@ import { RouterLink } from 'vue-router';
     <li><a href="tel:+250780229205" class="hover:text-yellow-300">{{ $t('footer.phone') }}</a></li>
     <li><a href="mailto:cyusaivan0@gmail.com" class="hover:text-yellow-300">{{ $t('footer.email') }}</a></li>
     <li><span class="hover:text-yellow-300">{{ $t('footer.location') }}</span></li>
-    <li><a href="https://www.temberaurwanda.rw" target="_blank" class="hover:text-yellow-300">{{ $t('footer.website') }}</a></li>
+    <li><a href="https://sos-l3-poyt.vercel.app" target="_blank" class="hover:text-yellow-300">{{ $t('footer.website') }}</a></li>
     <li><span class="hover:text-yellow-300">{{ $t('footer.support') }}</span></li>
   </ul>
 </div>
