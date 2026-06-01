@@ -19,5 +19,128 @@
     "english": "Icyongereza",
     "french": "Igifaransa",
     "kinyarwanda": "Ikinyarwanda"
+  },
+  "home": {
+    "heroTitle": "TEMBERA U RWANDA",
+    "heroText": "Menya umuco w’u Rwanda, uburanga bwaho n’ibyiza byibukwa. Tangira urugendo rwawe n’amafoto akurura.",
+    "explorePhotos": "Sura amafoto",
+    "learnMore": "Menya byinshi"
+  },
+  "about": {
+    "sectionTitle": "IBYEREKEYE RWANDA",
+    "headline": "Menya u Rwanda, igihugu cy'imisozi igihumbi",
+    "paragraph1": "U Rwanda ni igihugu gitangaje cyuzuyemo imisozi ibisi, ibiyaga byaka n'umuco w'impuhwe.",
+    "paragraph2": "Menya ibyiza by'u Rwanda binyuze mu mijyi nka Kigali, ibihugura by'icyayi n'ahantu h'amahoro.",
+    "paragraph3": "Muri YVAN, twizihiza ubwiza bw'u Rwanda kandi tukwiyamira gusura kamere n'umuco byacyo.",
+    "feature1Title": "Kamere nyabagendwa",
+    "feature1Text": "Imisozi ibisi, imisozi miremire n'ibiyaga bituje ni byo bihariye u Rwanda.",
+    "feature2Title": "Ubutumwa bwiza",
+    "feature2Text": "Abaturage b'ineza n'umutima w'akanyamuneza bituma gusura Rwanda biba iby'iteka."
+  },
+  "service": {
+    "title": "Serivisi",
+    "subtitle": "Reba gahunda zacu za tourisme, ingendo ziyobowe n'ubunararibonye bw'ahaho.",
+    "heroTitle": "Serivisi n'Ubunararibonye",
+    "heroText": "Menya zimwe mu bikorwa n'ubunararibonye bituma u Rwanda ruba ahantu hatandukanye.",
+    "cards": {
+      "gorilla": {
+        "title": "Gorilla Trekking",
+        "description": "Sangira n'inkende z'ibitumbwe mu buryo bwa kinyamaswa."
+      },
+      "safari": {
+        "title": "Safari",
+        "description": "Sura inyamaswa n'ubwiza bw'ibidukikije mu pariki zikingiwe."
+      },
+      "culture": {
+        "title": "Umurage w'umuco",
+        "description": "Menya imigenzo, imbyino n'amateka y'u Rwanda."
+      },
+      "city": {
+        "title": "Sura umujyi",
+        "description": "Menya Kigali n'ubuzima bw'umujyi bubyibushye."
+      },
+      "hiking": {
+        "title": "Gusimbuka imisozi",
+        "description": "Menya inzira n'ahantu heza h'imisozi."
+      },
+      "bird": {
+        "title": "Kureba inyoni",
+        "description": "Reba amoko menshi y'inyoni ziboneka mu Rwanda."
+      },
+      "camping": {
+        "title": "Camping",
+        "description": "Tembera mu muryango w'inyamaswa munsi y'inyenyeri."
+      },
+      "photography": {
+        "title": "Ifoto",
+        "description": "Fata amafoto y'ahantu heza, inyamaswa n'umuco."
+      }
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Soma amafoto yatoranyijwe avuye mu turere twiza twa Rwanda."
+  },
+  "videos": {
+    "title": "Videwo",
+    "subtitle": "Nunezezwa na videwo zihariye."
+  },
+  "galleryImages": {
+    "title": "Amafoto",
+    "description": "Kanda ku foto kugira uyibone neza. Buri foto yerekana intara yayo munsi.",
+    "location": "Aho iherereye:"
+  },
+  "destination": {
+    "sectionTitle": "Aho gusura",
+    "headline": "Menya u Rwanda, igihugu cy'imisozi igihumbi",
+    "paragraph1": "U Rwanda ni igihugu gitangaje cy'imisozi ibisi, ibiyaga byaka n'umuco w'impuhwe.",
+    "paragraph2": "Uhereye muri Volcanoes National Park kugana ku kiyaga cya Kivu, buri hantu hatanga uburanga n'umuco.",
+    "paragraph3": "Sura imijyi, pariki na za villages zituje kugira wumve neza u Rwanda.",
+    "card1Title": "Kamere nziza",
+    "card1Text": "Imisozi ibisi, imigezi y'umuyaga n'ibiyaga bituje bigaragaza u Rwanda.",
+    "card2Title": "Ubutumwa bwiza",
+    "card2Text": "Abaturage b'ineza n'umuco bituma gusura u Rwanda biboneka nk'ibidasanzwe."
+  },
+  "contact": {
+    "title": "Twandikire",
+    "intro": "Hamagarira nyir'urubuga, ohereza ubutumwa, cyangwa uduhuze ku mbuga nkoranyambaga.",
+    "phoneTitle": "Telefoni",
+    "emailTitle": "Imeli",
+    "locationTitle": "Aho turi",
+    "websiteTitle": "Urubuga",
+    "socialTitle": "Imbuga nkoranyambaga",
+    "instagram": "Instagram",
+    "instagramHandle": "[at]temberaurwanda",
+    "facebook": "Facebook",
+    "facebookHandle": "temberaurwanda",
+    "linkedin": "LinkedIn",
+    "linkedinHandle": "Tembera-Rwanda",
+    "whatsapp": "WhatsApp",
+    "whatsappNumber": "+250780229205",
+    "formTitle": "Ohereza ubutumwa",
+    "nameLabel": "Amazina yawe",
+    "namePlaceholder": "Amazina yawe",
+    "emailLabel": "Imeli yawe",
+    "emailPlaceholder": "Imeli yawe",
+    "subjectLabel": "Umutwe w'ubutumwa",
+    "subjectPlaceholder": "Umutwe w'ubutumwa",
+    "messageLabel": "Ubutumwa",
+    "messagePlaceholder": "Andika ubutumwa bwawe hano...",
+    "sendButton": "Ohereza",
+    "statusEmpty": "Nyamuneka tanga imeli yawe n'ubutumwa mbere yo kohereza.",
+    "statusPrepping": "Turimo gutegura imeli yawe..."
+  },
+  "footer": {
+    "brandTitle": "TEMBERA RWANDA",
+    "tagline": "Menya ibindi bice n'ahantu mu Rwanda",
+    "quickLinks": "Imiyoboro yihuse",
+    "destinations": "Aho gusura",
+    "contact": "Twandikire",
+    "phone": "Telefoni: +250 780 229 205",
+    "email": "Imeli: cyusaivan0 [at] gmail [dot] com",
+    "location": "Aho turi: Kigali, Kagugu, Rwanda",
+    "website": "Urubuga: temberaurwanda [dot] rw",
+    "support": "Inkunga",
+    "copy": "© 2026 Rwanda Tourism. Uburenganzira bwose burabitswe."
   }
 }

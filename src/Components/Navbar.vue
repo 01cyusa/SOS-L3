@@ -93,7 +93,7 @@ export default {
   name: 'Navbar',
   methods: {
     changeLang(lang) {
-      if (this.$i18n && this.$i18n.locale) {
+      if (this.$i18n) {
         this.$i18n.locale = lang
       }
     }

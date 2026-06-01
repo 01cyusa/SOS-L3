@@ -1,7 +1,7 @@
 <template>
   <section class="bg-white shadow-sm rounded-lg p-6">
-    <h2 class="text-2xl font-semibold text-gray-800">Videos</h2>
-    <p class="mt-2 text-green-600 font-semibold text-lg mb-6">Enjoy these featured videos.</p>
+    <h2 class="text-2xl font-semibold text-gray-800">{{ $t('videos.title') }}</h2>
+    <p class="mt-2 text-green-600 font-semibold text-lg mb-6">{{ $t('videos.subtitle') }}</p>
 
     <div class="space-y-6">
       <div class="video-wrapper">

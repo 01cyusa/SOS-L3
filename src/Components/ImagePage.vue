@@ -7,3 +7,9 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  name: 'ImagePage'
+}
+</script>

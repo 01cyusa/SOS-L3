@@ -19,5 +19,128 @@
     "english": "English",
     "french": "Français",
     "kinyarwanda": "Kinyarwanda"
+  },
+  "home": {
+    "heroTitle": "TEMBERA U RWANDA",
+    "heroText": "Discover Rwanda's vibrant culture, stunning landscapes, and unforgettable experiences. Start your journey with inspiring photos and easy access to more information.",
+    "explorePhotos": "Explore Photos",
+    "learnMore": "Learn More"
+  },
+  "about": {
+    "sectionTitle": "ABOUT RWANDA",
+    "headline": "Discover Rwanda, the Land of a Thousand Hills",
+    "paragraph1": "Rwanda is a breathtaking country of rolling green hills, sparkling lakes, and rich cultural warmth. From the misty peaks of Volcanoes National Park to the tranquil shores of Lake Kivu, every view feels like a living postcard.",
+    "paragraph2": "Experience the magic of Rwanda through vibrant city life in Kigali, peaceful tea plantations, and unforgettable wildlife encounters. The country’s welcoming people, dramatic landscapes, and remarkable heritage make it one of Africa’s most beautiful destinations.",
+    "paragraph3": "At YVAN, we celebrate Rwanda’s beauty and invite you to explore its natural wonders, inspiring traditions, and the unforgettable moments that make this nation shine.",
+    "feature1Title": "Stunning Nature",
+    "feature1Text": "Lush hills, dramatic valleys, peaceful lakes, and vibrant forests create Rwanda’s signature scenery.",
+    "feature2Title": "Warm Hospitality",
+    "feature2Text": "Friendly communities, cultural experiences, and a welcoming spirit make every visit memorable."
+  },
+  "service": {
+    "title": "Services",
+    "subtitle": "Explore our tourism support, guided journeys, and local experience packages.",
+    "heroTitle": "Services & Experiences",
+    "heroText": "Discover some of the activities and experiences that make Rwanda a unique destination for visitors and explorers.",
+    "cards": {
+      "gorilla": {
+        "title": "Gorilla Trekking",
+        "description": "Meet Rwanda's famous mountain gorillas in their natural habitat."
+      },
+      "safari": {
+        "title": "Safari Experience",
+        "description": "Explore wildlife and natural landscapes in protected parks."
+      },
+      "culture": {
+        "title": "Cultural Heritage",
+        "description": "Learn about traditions, dances and Rwanda's rich history."
+      },
+      "city": {
+        "title": "City Tours",
+        "description": "Discover Kigali and the vibrant urban life of Rwanda."
+      },
+      "hiking": {
+        "title": "Hiking",
+        "description": "Discover breathtaking trails and mountain landscapes."
+      },
+      "bird": {
+        "title": "Bird Watching",
+        "description": "Observe hundreds of bird species found across Rwanda."
+      },
+      "camping": {
+        "title": "Camping",
+        "description": "Experience Rwanda's natural environment under the stars."
+      },
+      "photography": {
+        "title": "Photography",
+        "description": "Capture stunning scenery, wildlife and cultural moments."
+      }
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Browse curated photos from Rwanda’s most beautiful regions."
+  },
+  "videos": {
+    "title": "Videos",
+    "subtitle": "Enjoy these featured videos."
+  },
+  "galleryImages": {
+    "title": "Images",
+    "description": "Click an image to view larger. Each image shows its province below.",
+    "location": "Location:"
+  },
+  "destination": {
+    "sectionTitle": "DESTINATION",
+    "headline": "Discover Rwanda, the Land of a Thousand Hills",
+    "paragraph1": "Rwanda is a breathtaking country of rolling green hills, sparkling lakes, and rich cultural warmth.",
+    "paragraph2": "From Volcanoes National Park to Lake Kivu, each destination offers remarkable scenery and local culture.",
+    "paragraph3": "Explore city life, national parks, and peaceful villages for a complete travel experience.",
+    "card1Title": "Stunning Nature",
+    "card1Text": "Lush hills, dramatic valleys, peaceful lakes, and vibrant forests create Rwanda’s signature scenery.",
+    "card2Title": "Warm Hospitality",
+    "card2Text": "Friendly communities, cultural experiences, and a welcoming spirit make every visit memorable."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "intro": "Reach out to the website owner, send a message, or connect on social media.",
+    "phoneTitle": "Phone",
+    "emailTitle": "Email",
+    "locationTitle": "Location",
+    "websiteTitle": "Website",
+    "socialTitle": "Social Media",
+    "instagram": "Instagram",
+    "instagramHandle": "[at]temberaurwanda",
+    "facebook": "Facebook",
+    "facebookHandle": "temberaurwanda",
+    "linkedin": "LinkedIn",
+    "linkedinHandle": "Tembera-Rwanda",
+    "whatsapp": "WhatsApp",
+    "whatsappNumber": "+250780229205",
+    "formTitle": "Send us a message",
+    "nameLabel": "Full name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "Your email",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "Message subject",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Write your message here...",
+    "sendButton": "Send Message",
+    "statusEmpty": "Please provide your email and a message before sending.",
+    "statusPrepping": "Preparing your email..."
+  },
+  "footer": {
+    "brandTitle": "TEMBERA RWANDA",
+    "tagline": "Discover more places and locations in Rwanda",
+    "quickLinks": "Quick Links",
+    "destinations": "Destinations",
+    "contact": "Contact",
+    "phone": "Phone: +250 780 229 205",
+    "email": "Email: cyusaivan0 [at] gmail [dot] com",
+    "location": "Location: Kigali, Kagugu, Rwanda",
+    "website": "Website: temberaurwanda [dot] rw",
+    "support": "Support",
+    "copy": "© 2026 Rwanda Tourism. All Rights Reserved."
   }
 }

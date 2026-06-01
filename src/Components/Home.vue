@@ -3,17 +3,17 @@
     <div class="content-overlay">
       <div class="home-content text-center px-4">
         <h1 class="text-4xl md:text-5xl font-bold text-white drop-shadow-lg mb-4">
-          TEMBERA U RWANDA
+          {{ $t('home.heroTitle') }}
         </h1>
         <p class="home-subtext text-white text-lg md:text-xl max-w-2xl mx-auto mb-8">
-          Discover Rwanda's vibrant culture, stunning landscapes, and unforgettable experiences. Start your journey with inspiring photos and easy access to more information.
+          {{ $t('home.heroText') }}
         </p>
         <div class="button-group flex flex-col sm:flex-row justify-center gap-4">
-          <button class="btn btn-explore px-8 py-3 font-semibold rounded-full">
-            Explore Photos
+          <button @click="goGallery" class="btn btn-explore px-8 py-3 font-semibold rounded-full">
+            {{ $t('home.explorePhotos') }}
           </button>
-          <button class="btn btn-learn px-8 py-3 font-semibold rounded-full">
-            Learn More
+          <button @click="goAbout" class="btn btn-learn px-8 py-3 font-semibold rounded-full">
+            {{ $t('home.learnMore') }}
           </button>
         </div>
       </div>
@@ -21,17 +21,13 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { useRouter } from 'vue-router'
 import yvanImage from '../assets/Image/RWANDA.jpg'
 
-export default {
-  name: 'Home',
-  data() {
-    return {
-      yvanImage
-    }
-  }
-}
+const router = useRouter()
+const goGallery = () => router.push('/gallery/images')
+const goAbout = () => router.push('/about')
 </script>
 
 <style scoped>

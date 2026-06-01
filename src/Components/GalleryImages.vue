@@ -1,14 +1,14 @@
 <template>
   <section class="p-6">
-    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Images</h2>
-    <p class="text-green-600 font-semibold mb-6">Click an image to view larger. Each image shows its province below.</p>
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4">{{ $t('galleryImages.title') }}</h2>
+    <p class="text-green-600 font-semibold mb-6">{{ $t('galleryImages.description') }}</p>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
       <div v-for="item in images" :key="item.label" class="rounded overflow-hidden shadow-lg bg-white">
         <img :src="item.src" :alt="item.label" class="w-full h-48 object-cover" />
         <div class="p-4">
           <h3 class="font-bold text-gray-800">{{ item.label }}</h3>
-          <p class="text-sm text-gray-600 mt-1">Location: {{ item.province }}</p>
+          <p class="text-sm text-gray-600 mt-1">{{ $t('galleryImages.location') }} {{ item.province }}</p>
         </div>
       </div>
     </div>
