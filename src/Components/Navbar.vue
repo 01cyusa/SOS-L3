@@ -61,6 +61,7 @@
     </li>
   </ul>
 </li>
+            <li><router-link to="/login" class="hover:text-yellow-400 no-underline">Login</router-link></li>
             <li><router-link to="/contact" class="hover:text-yellow-400 no-underline">{{ $t('nav.contact') }}</router-link></li>
             <li class="relative group overflow-visible z-50">
   <button type="button" class="hover:text-yellow-300 inline-flex items-center gap-1 no-underline">
