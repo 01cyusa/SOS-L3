@@ -1,21 +1,21 @@
 <template>
   <div class="flex items-center justify-center min-h-screen bg-green-100 px-4">
     <div class="bg-white p-8 rounded-2xl shadow-md w-full max-w-md">
-      <h2 class="text-3xl font-bold text-green-700 mb-6 text-center">Log In</h2>
+      <h2 class="text-3xl font-bold text-green-700 mb-6 text-center">{{ $t('auth.login.title') }}</h2>
       <p class="text-sm text-gray-600 mb-8 text-center">
-        Sign in to access your account and continue exploring the site.
+        {{ $t('auth.login.subtitle') }}
       </p>
 
       <form @submit.prevent="handleSubmit" class="space-y-5">
         <div>
           <label class="block text-sm font-medium text-gray-700 mb-2" for="email">
-            Email address
+            {{ $t('auth.login.emailLabel') }}
           </label>
           <input
             id="email"
             v-model="email"
             type="email"
-            placeholder="Please Enter Your Email"
+            :placeholder="$t('auth.login.emailPlaceholder')"
             required
             class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-300"
           />
@@ -23,13 +23,13 @@
 
         <div>
           <label class="block text-sm font-medium text-gray-700 mb-2" for="password">
-            Password
+            {{ $t('auth.login.passwordLabel') }}
           </label>
           <input
             id="password"
             v-model="password"
             type="password"
-            placeholder="Please Enter your password"
+            :placeholder="$t('auth.login.passwordPlaceholder')"
             required
             class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-300"
           />
@@ -39,7 +39,7 @@
           type="submit"
           class="w-full bg-green-700 text-white py-3 rounded-xl hover:bg-green-600 transition-colors font-semibold"
         >
-          Sign in
+          {{ $t('auth.login.signInButton') }}
         </button>
       </form>
 
@@ -48,9 +48,9 @@
       </p>
 
       <p class="text-center text-sm mt-6 text-gray-600">
-        Don't have an account?
+        {{ $t('auth.login.noAccountText') }}
         <router-link to="/register" class="text-green-600 hover:underline font-semibold">
-          Register
+          {{ $t('auth.login.registerLink') }}
         </router-link>
       </p>
     </div>
@@ -59,16 +59,18 @@
 
 <script setup>
 import { ref, computed } from 'vue'
+import { useI18n } from 'vue-i18n'
+import { useRouter } from 'vue-router'
 
+const router = useRouter()
+const { t } = useI18n()
 const email = ref('')
 const password = ref('')
 const message = ref('')
 const status = ref('')
 
 const messageClass = computed(() => {
-  return status.value === 'success'
-    ? 'text-green-700'
-    : 'text-red-600'
+  return status.value === 'success' ? 'text-green-700' : 'text-red-600'
 })
 
 const handleSubmit = () => {
@@ -76,22 +78,24 @@ const handleSubmit = () => {
   status.value = ''
 
   if (!email.value || !password.value) {
-    message.value = 'Please enter both email and password.'
+    message.value = t('auth.login.errorBothFields')
     status.value = 'error'
     return
   }
 
   const validEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
   if (!validEmail.test(email.value)) {
-    message.value = 'Please enter a valid email address.'
+    message.value = t('auth.login.errorInvalidEmail')
     status.value = 'error'
     return
   }
 
-  message.value = 'Login successful. Redirecting...'
+  // Simulate successful login and navigate to dashboard
+  message.value = t('auth.login.successMessage')
   status.value = 'success'
   setTimeout(() => {
     message.value = ''
-  }, 3000)
+    router.push('/dashboard')
+  }, 800)
 }
 </script>

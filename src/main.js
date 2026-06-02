@@ -10,10 +10,18 @@ import rw from './locales/rw.json'
 const messages = { en, fr, rw }
 
 const i18n = createI18n({
-	legacy: true,
+	legacy: false,
+	globalInjection: true,
 	locale: 'en',
 	fallbackLocale: 'en',
-	messages
+	messages,
+	messageCompiler(message, { onError, key }) {
+		if (typeof message === 'string') {
+			return () => message
+		}
+		onError?.(new Error(`Unsupported message format for ${key}`))
+		return () => key
+	}
 })
 
 const app = createApp(App)

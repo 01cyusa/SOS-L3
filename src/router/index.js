@@ -10,6 +10,7 @@ import Videos from '../Components/Videos.vue'
 import GalleryImages from '../Components/GalleryImages.vue'
 import Login from '../Components/Login.vue'
 import Register from '../Components/Register.vue'
+import Dashboard from '../Components/Dashboard.vue'
 
 const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
@@ -17,6 +18,7 @@ const router = createRouter({
     { path: '/', name: 'Home', component: Home, alias: '/home' },
     { path: '/about', name: 'About', component: About },
     { path: '/login', name: 'Login', component: Login },
+    { path: '/dashboard', name: 'Dashboard', component: Dashboard },
     { path: '/register', name: 'Register', component: Register },
     { path: '/service', name: 'Service', component: Service, alias: '/services' },
     { path: '/gallery', name: 'Gallery', component: Gallery },
